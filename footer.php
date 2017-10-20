@@ -1,7 +1,5 @@
 <? php
-    /* 
-    Footer for newt theme.
-    */
+/* Footer for Mario's Italian Restaurant */
 ?>
 
 
@@ -10,7 +8,7 @@
 <div class="container">
     <div class="row">
         <div class="col-xl-12 d-flex justify-content-center">
-            <footer class="copyright">Newt theme, ©2017 | Developed by:  Rudolph Schmitz</footer>
+            <footer class="copyright">Demo theme, ©2017 | Developed by:  Rudolph Schmitz</footer>
             <?php wp_footer(); ?>
         </div>
     </div>

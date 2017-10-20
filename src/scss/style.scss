@@ -55,24 +55,10 @@
         height: 100%;
         margin: 0;
         padding: 0;
-        background-color: $black;
     }
 
     ol {
         padding-left: 1rem;
-    }
-
-    h1 {
-        color: $white;
-        font-family: $header-font;
-        font-size: $header-font-size;
-    }
-
-    h3 {
-        color: $white;
-        font-family: $subheader-font;
-        font-size: $subheader-font-size;
-        text-align: center;
     }
 
     .nav-logo {
@@ -81,17 +67,17 @@
     }
 
     .nav-style {
-        background-color: $white;
+        background-color: transparent;
     }
 
     .nav-style a {
-        color: $black;
+        color: $white;
         text-decoration: none;
     }
 
     .nav-btn {
         background-color: transparent;
-        color: $black;
+        color: $white;
         border: none;
         cursor: pointer;
         font-family: $nav-font;
@@ -106,7 +92,7 @@
 
     .nav-drop-btn {
         background-color: transparent;
-        color: $black;
+        color: $white;
         border: none;
         cursor: pointer;
         font-family: $nav-drop-font;
@@ -119,9 +105,9 @@
         outline:0;
     }
 
-    .banner {
-        background-image: linear-gradient(rgba(0,0,0,1), rgba(0, 0, 0, 0.5)), url("../imgs/peekles.jpg");
-        height: 50%;
+    .landing {
+        background-image: linear-gradient(rgba(0,0,0,1), rgba(0, 0, 0, 0.5)), url("../imgs/landing.jpg");
+        height: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -134,13 +120,13 @@
     .header {
         font-family: $header-font;
         font-size: $header-font-size;
-        color: $yellow;
+        color: $red;
     }
 
     .subheader {
         font-family: $subheader-font;
         font-size: $subheader-font-size;
-        color: $yellow;
+        color: $red;
     }
 
     .content {
@@ -177,7 +163,7 @@
     }
 
     .default-btn:hover {
-        color: $yellow;
+        color: $red;
     }
 
     .default-btn:focus {
@@ -197,7 +183,7 @@
     }
 
     .icons {
-        color: $yellow;
+        color: $red;
         font-size: $icons-size;
     }
 
@@ -258,12 +244,12 @@
         display: none;
         margin-top: .25rem;
         font-size: .7rem;
-        color: $yellow;
+        color: $red;
     }
 
     .invalid-border {
         display: block;
-        border: 1px solid $yellow; 
+        border: 1px solid $red; 
     }
 
     .contact-submit-button {
@@ -305,7 +291,7 @@
 
     .mobile-home-icons {
         font-size: $mobile-icon-size;
-        color: $yellow;
+        color: $red;
     }
 
     .mobile-home-content {
@@ -344,14 +330,6 @@
         background-color: transparent;
         color: $white;
         min-width: 11rem;   
-    }
-
-    // Wordpress customizations
-
-    .sidebar-left, .sidebar-center, .sidebar-right {
-        font-family: $content-font;
-        font-size: $content-font-size;
-        color: $white;
     }
 
 // #####  IDS AND CLASSES END #####

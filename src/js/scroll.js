@@ -7,6 +7,14 @@ $(function() {
        }, 500);
     });
  });
+
+ $(function() {
+    $('#goHomeBrand').click(function() {
+       $('html, body').animate({
+          scrollTop: $('#home').offset().top
+       }, 500);
+    });
+ });
  
  $(function() {
     $('#goAbout').click(function() {
@@ -17,29 +25,13 @@ $(function() {
  });
  
  $(function() {
-    $('#goPracticeAreas').click(function() {
+    $('#goProjects').click(function() {
        $('html, body').animate({
-          scrollTop: $('#practice-areas').offset().top
+          scrollTop: $('#projects').offset().top
        }, 500);
     });
  });
  
- $(function() {
-    $('#goAttorneys').click(function() {
-       $('html, body').animate({
-          scrollTop: $('#attorneys').offset().top
-       }, 500);
-    });
- });
- 
- $(function() {
-    $('#goResources').click(function() {
-       $('html, body').animate({
-          scrollTop: $('#resources').offset().top
-       }, 500);
-    });
- });
-
  $(function() {
     $('#goContact').click(function() {
        $('html, body').animate({
@@ -49,9 +41,9 @@ $(function() {
  });
 
  $(function() {
-    $('#goDisclaimer').click(function() {
+    $('#goContact2').click(function() {
        $('html, body').animate({
-          scrollTop: $('#disclaimer').offset().top
+          scrollTop: $('#contact').offset().top
        }, 500);
     });
  });
