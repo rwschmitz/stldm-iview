@@ -14,7 +14,6 @@
     </div>
 </div>
 
-<script src="/wp-content/themes/demo/src/js/nav.js"></script>
 
     </body>
 </html>
