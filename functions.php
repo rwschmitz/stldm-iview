@@ -12,9 +12,10 @@ add_action('init', 'modify_wordpress_jquery');
 
 function newt_scripts() {
 	wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
-	wp_enqueue_style('bootstrap-v4', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css');
+	wp_enqueue_style('bootstrap-css', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css');
 	wp_enqueue_style( 'custom-css', get_template_directory_uri() . '/src/css/style.css');
-	wp_enqueue_style('raleway-font', 'https://fonts.googleapis.com/css?family=Raleway');
+	wp_enqueue_style('antic-font', 'https://fonts.googleapis.com/css?family=Raleway');
+	wp_enqueue_style('julius-sans-one-font', 'https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet');
 	wp_enqueue_script('popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js');
 	wp_enqueue_script('bootstrap-js', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js');
 	wp_enqueue_script('scroll', get_template_directory_uri() . '/src/js/scroll.js');
