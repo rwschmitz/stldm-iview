@@ -56,6 +56,5 @@ function mobileNoDrop() {
            $('#subdrop1').fadeOut(250).removeClass("show");
         });
         flag[0] = false;
-        listeners[0].addEventListener("click", mobileDrop, false);
      }
 }
