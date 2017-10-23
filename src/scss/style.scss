@@ -222,7 +222,7 @@
         font-weight: $nav-font-weight;
         background-color: transparent;
         color: $content-color;
-        border-color: lighten($content-color,90%);
+        border-color: lighten($content-color,50%);
         min-width: 11rem;   
     }
 
