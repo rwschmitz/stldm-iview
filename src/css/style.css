@@ -57,8 +57,8 @@ ol {
   outline: 0; }
 
 .nav-drop-btn {
-  background-color: #fff8dc;
-  color: #141516;
+  background-color: transparent;
+  color: #fff8dc;
   border: none;
   cursor: pointer;
   font-family: "Antic", sans-serif;
@@ -249,8 +249,8 @@ ol {
 
 .dropdown-menu {
   font-family: "Julius Sans One", sans-serif;
-  background-color: #fff8dc;
-  color: #141516;
+  background-color: transparent;
+  color: #fff8dc;
   min-width: 11rem; }
 
 /*# sourceMappingURL=style.css.map */
