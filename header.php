@@ -36,7 +36,7 @@
                 <button class="nav-btn underline">menu item 3</button>
                     <div id="subdrop1" class="dropdown-menu">
                         <li><button class="nav-drop-btn underline"><a href="https://newtpress.com/stldm-iview/menu-item-3/sub-menu-item-1">Sub-menu item 1</a></button></li>
-                        <li><button class="nav-drop-btn underline"><a hre=f"https://newtpress.com/stldm-iview/menu-item-3/sub-menu-item-1">Sub-menu item </a></button></li>
+                        <li><button class="nav-drop-btn underline"><a href="https://newtpress.com/stldm-iview/menu-item-3/sub-menu-item-1">Sub-menu item </a></button></li>
                         <li><button class="nav-drop-btn underline"><a href="https://newtpress.com/stldm-iview/menu-item-3/sub-menu-item-1">Sub-menu item 3</a></button></li>
                     </div>
             </a>
