@@ -74,7 +74,7 @@ function defer_js_async($tag){
     $scripts_to_defer = array('');
 
 	// list of scripts to async
-	$scripts_to_async = array('/src/js/nav.js');
+	$scripts_to_async = array('/src/js/nav.js', 'https://fonts.googleapis.com/css?family=Julius+Sans+One', 'https://fonts.googleapis.com/css?family=Raleway');
 	 
 	// defer scripts
 	foreach($scripts_to_defer as $defer_script){

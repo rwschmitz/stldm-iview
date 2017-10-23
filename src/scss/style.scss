@@ -72,13 +72,13 @@
     }
 
     .nav-style a {
-        color: $black;
+        color: $content-color;
         text-decoration: none;
     }
 
     .nav-btn {
         background-color: transparent;
-        color: $black;
+        color: $content-color;
         border: none;
         cursor: pointer;
         font-family: $nav-font;
@@ -93,7 +93,7 @@
 
     .nav-drop-btn {
         background-color: transparent;
-        color: $black;
+        color: $content-color;
         border: none;
         cursor: pointer;
         font-family: $nav-drop-font;
@@ -133,7 +133,7 @@
     .content {
         font-family: $content-font;
         font-size: $content-font-size;
-        color: $black;
+        color: $content-color;
     }
 
 
@@ -141,7 +141,7 @@
     .default-btn {
         background: transparent;
         border: none;
-        color: $black;
+        color: $content-color;
         cursor: pointer;
         transition-duration: $hover-time;
         transition-timing-function: linear;
@@ -158,13 +158,13 @@
     .intro {
         font-family: $intro-font;
         font-size: $intro-font-size;
-        color: $black;
+        color: $content-color;
     }
 
     .subintro {
         font-family: $subintro-font;
         font-size: $subintro-font-size;
-        color: $black;
+        color: $content-color;
     }
 
     .icons {
@@ -175,7 +175,7 @@
     .copyright {
         font-family: $copyright-font;
         font-size: $copyright-font-size;
-        color: $black;
+        color: $content-color;
     }
     
     // Mobile only
@@ -187,7 +187,7 @@
 
     .mobile-home-content {
         font-size: $content-font-size;
-        color: $black;
+        color: $content-color;
     }
     
     // Desktop only
@@ -206,20 +206,20 @@
     }
 
     .navbar-toggler-icon {
-        color: $black;
+        color: $content-color;
         height: 1.0em;
         margin-right: 1rem;
     }
 
     .form-control {
         background-color: $primary-color;
-        color: $black;
+        color: $content-color;
     }
 
     .dropdown-menu {
         font-family: $nav-font;
         background-color: transparent;
-        color: $black;
+        color: $content-color;
         min-width: 11rem;   
     }
 

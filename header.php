@@ -53,7 +53,7 @@
                     </div>
                 </a>
 
-                <
+                
                 <a href="our-story" id="goAbout" class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <div id="drop3" class="dropdown">
                             <button class="nav-btn underline">about</button>
