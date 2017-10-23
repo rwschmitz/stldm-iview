@@ -13,7 +13,7 @@ if (window.matchMedia('(min-width: 1200px)').matches) {
 } else {
     var listeners = [document.getElementById("mobileDropDown")]; // Puts all the elements in an array
     for (var i = 0; i < listeners.length; i++) { // Creating all event listeners.
-        listeners[i].addEventListener("click", drop, false);
+        listeners[i].addEventListener("click", mobileDrop, false);
     }
 }
 
@@ -37,4 +37,18 @@ function noDrop() { // Determins which drop down menu to hide
       });
       flag[0] = false;
    }
+}
+
+function mobileDrop(e) { // Determines which drop down menu to show
+    var target = $(e.target);
+    if (target.is(listeners[0])) {
+       $(function() {
+          $('#subdrop1').fadeIn(250).addClass("show");
+       });
+       flag[0] = true;
+    } 
+ }
+
+function mobileNoDrop() {
+
 }
