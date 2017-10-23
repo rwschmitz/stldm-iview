@@ -1,6 +1,4 @@
-<?php 
-get_header();
-?>
+<?php get_header(); ?>
 
 
 
@@ -10,11 +8,7 @@ get_header();
 <div class="container">
     <div class="row">
         <div class="col-xl-12">
-            hello<br>
-            hello<br>
-            hello<br>
-            hello<br>
-            hello<br>
+            <h1> THIS IS THE ABOUT PAGE!!!! </h1>
         </div>
     </div>
 </div>
