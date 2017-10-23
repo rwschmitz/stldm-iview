@@ -72,7 +72,7 @@ add_action('widgets_init', 'newt_widgets_init');
 function defer_js_async($tag){
 	
 	// list of scripts to defer
-//	$scripts_to_defer = array('/src/js/nav.js');
+    $scripts_to_defer = array('');
 
 	// list of scripts to async
 	$scripts_to_async = array('/src/js/nav.js');
