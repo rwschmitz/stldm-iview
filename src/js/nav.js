@@ -49,10 +49,6 @@ function mobileDrop(e) { // Determines which drop down menu to show
     } 
  }
 
- if (window.matchMedia('(max-width: 991px)').matches && flag[0] === true) {
-     listeners[0].addEventListener("click", mobileNoDrop, false);
- }
-
 function mobileNoDrop() {
     if (flag[0]) {
         $(function() {
