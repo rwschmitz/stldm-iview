@@ -27,7 +27,9 @@
         <div class="row">
             <div class="col-xl-12 d-flex justify-content-center">
                 <img class="img-fluid" src="wp-content/themes/demo/src/imgs/rs-img.jpg" alt="Rudolph Schmitz">
-                Myself and my girlfriend: Stephanie Huynh - Hero NICU Nurse
+                <div class="py-2">
+                    Myself and my girlfriend: Stephanie Huynh - Hero NICU Nurse
+                </div>
             </div> <!-- End col -->
         </div> <!-- End row -->
     </div> <!-- End container -->
