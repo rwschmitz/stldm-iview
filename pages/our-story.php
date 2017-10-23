@@ -9,7 +9,7 @@
     <div class="row">
         <div class="col-xl-12">
             <div class="test">
-                <h1><?php echo get_post_meta(get_the_ID(), 'test-header', true); ?></h1>
+                <h1><?php echo get_post_meta(get_the_ID(), 'main-header', true); ?></h1>
             </div>
         </div>
     </div>
