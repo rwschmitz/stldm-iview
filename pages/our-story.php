@@ -21,7 +21,6 @@
             <div class="col-xl-12">
                 <div class="subheader text-center">
                     <?php echo get_post_meta(get_the_ID(), 'sub-title', true); // Allows the user to change the sub-title of each page from the Wordpress dashboard ?> 
-                    <?php the_content(); // Allows the user to change the page content from the Wordpress dashboard?>
                 </div>
             </div> <!--- End col -->
         </div> <!-- End row -->

@@ -83,6 +83,7 @@
         cursor: pointer;
         font-family: $nav-font;
         font-size: $nav-font-size;
+        font-weight: $nav-font-weight;
         transition-duration: $hover-time;
         transition-timing-function: ease-in-out;
     }
@@ -218,8 +219,10 @@
 
     .dropdown-menu {
         font-family: $nav-font;
+        font-weight: $nav-font-weight;
         background-color: transparent;
         color: $content-color;
+        border-color: lighten($content-color,90%);
         min-width: 11rem;   
     }
 

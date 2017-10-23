@@ -50,6 +50,7 @@ ol {
   cursor: pointer;
   font-family: "Julius Sans One", sans-serif;
   font-size: 1.2rem;
+  font-weight: 700;
   transition-duration: 250ms;
   transition-timing-function: ease-in-out; }
 
@@ -82,12 +83,12 @@ ol {
 .header {
   font-family: "Raleway", sans-serif;
   font-size: 1.875rem;
-  color: #6ed3cf; }
+  color: #22264b; }
 
 .subheader {
   font-family: "Raleway", sans-serif;
   font-size: 1.25rem;
-  color: #6ed3cf; }
+  color: #22264b; }
 
 .content {
   font-family: "Raleway", sans-serif;
@@ -103,7 +104,7 @@ ol {
   transition-timing-function: linear; }
 
 .default-btn:hover {
-  color: #6ed3cf; }
+  color: #22264b; }
 
 .default-btn:focus {
   outline: 0; }
@@ -119,7 +120,7 @@ ol {
   color: #141516; }
 
 .icons {
-  color: #6ed3cf;
+  color: #22264b;
   font-size: 2.5rem; }
 
 .copyright {
@@ -129,7 +130,7 @@ ol {
 
 .mobile-home-icons {
   font-size: 40px;
-  color: #6ed3cf; }
+  color: #22264b; }
 
 .mobile-home-content {
   font-size: 1rem;
@@ -156,8 +157,10 @@ ol {
 
 .dropdown-menu {
   font-family: "Julius Sans One", sans-serif;
+  font-weight: 700;
   background-color: transparent;
   color: #141516;
+  border-color: #fafbfb;
   min-width: 11rem; }
 
 /*# sourceMappingURL=style.css.map */
