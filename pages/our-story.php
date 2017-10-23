@@ -27,6 +27,14 @@
         </div> <!-- End row -->
     </div> <!-- End container -->
 
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <?php get_post(); ?>
+            </div> <!--- End col -->
+        </div> <!-- End row -->
+    </div> <!-- End container -->
+
 
 </div> <!-- End no-gutters -->
 
@@ -35,3 +43,4 @@
 
 
 <?php get_footer(); ?>
+
