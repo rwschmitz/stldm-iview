@@ -1,10 +1,9 @@
+/*#ff033a*/
 .underline {
   display: inline-block;
   vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-          transform: perspective(1px) translateZ(0);
-  -webkit-box-shadow: 0 0 1px transparent;
-          box-shadow: 0 0 1px transparent;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
   position: relative;
   overflow: hidden; }
 
@@ -17,15 +16,9 @@
   bottom: 0;
   background: #fff8dc;
   height: 1px;
-  -webkit-transition-property: left, right;
-  -o-transition-property: left, right;
   transition-property: left, right;
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: ease-out;
-       -o-transition-timing-function: ease-out;
-          transition-timing-function: ease-out; }
+  transition-duration: 250ms;
+  transition-timing-function: ease-out; }
 
 .underline:hover:before, .underline:focus:before, .underline:active:before {
   left: 0;
@@ -34,79 +27,51 @@
 html, body {
   height: 100%;
   margin: 0;
-  padding: 0;
-  background-color: #141516; }
+  padding: 0; }
 
 ol {
-  padding-left: 16px;
   padding-left: 1rem; }
-
-h1 {
-  color: #fff8dc;
-  font-family: "Raleway", sans-serif;
-  font-size: 30px;
-  font-size: 1.875rem; }
-
-h3 {
-  color: #fff8dc;
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
-  font-size: 1.25rem;
-  text-align: center; }
 
 .nav-logo {
   max-width: 50%;
   height: auto; }
 
 .nav-style {
-  background-color: #fff8dc; }
+  background-color: transparent; }
 
 .nav-style a {
-  color: #141516;
+  color: #fff8dc;
   text-decoration: none; }
 
 .nav-btn {
   background-color: transparent;
-  color: #141516;
+  color: #fff8dc;
   border: none;
   cursor: pointer;
-  font-family: "Raleway", sans-serif;
-  font-size: 19.2px;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 1.2rem;
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: ease-in-out;
-       -o-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out; }
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out; }
 
 .nav-btn:focus {
   outline: 0; }
 
 .nav-drop-btn {
-  background-color: transparent;
+  background-color: #fff8dc;
   color: #141516;
   border: none;
   cursor: pointer;
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-family: "Antic", sans-serif;
   font-size: 1rem;
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: ease-in-out;
-       -o-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out; }
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out; }
 
 .nav-drop-btn:focus {
   outline: 0; }
 
-.banner {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0.5))), url("../imgs/peekles.jpg");
-  background-image: -webkit-linear-gradient(black, rgba(0, 0, 0, 0.5)), url("../imgs/peekles.jpg");
-  background-image: -o-linear-gradient(black, rgba(0, 0, 0, 0.5)), url("../imgs/peekles.jpg");
-  background-image: linear-gradient(black, rgba(0, 0, 0, 0.5)), url("../imgs/peekles.jpg");
-  height: 50%;
+.landing {
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.5)), url("../imgs/landing.jpg");
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -115,37 +80,29 @@ h3 {
   height: auto; }
 
 .header {
-  font-family: "Raleway", sans-serif;
-  font-size: 30px;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 1.875rem;
-  color: #f7df1e; }
+  color: #ff033a; }
 
 .subheader {
-  font-family: "Raleway", sans-serif;
-  font-size: 20px;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 1.25rem;
-  color: #f7df1e; }
+  color: #ff033a; }
 
 .content {
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 1rem;
   color: #fff8dc; }
 
 .content-inverse {
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 1rem;
   color: #141516; }
 
 .content-inverse a {
   color: #03b8ff;
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: ease-in-out;
-       -o-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
   text-decoration: none; }
 
 .content-inverse a:hover {
@@ -157,34 +114,27 @@ h3 {
   border: none;
   color: #fff8dc;
   cursor: pointer;
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: linear;
-       -o-transition-timing-function: linear;
-          transition-timing-function: linear; }
+  transition-duration: 250ms;
+  transition-timing-function: linear; }
 
 .default-btn:hover {
-  color: #f7df1e; }
+  color: #ff033a; }
 
 .default-btn:focus {
   outline: 0; }
 
 .intro {
-  font-family: "Raleway", sans-serif;
-  font-size: 50px;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 3.125rem;
   color: #fff8dc; }
 
 .subintro {
-  font-family: "Raleway", sans-serif;
-  font-size: 30px;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 1.875rem;
   color: #fff8dc; }
 
 .icons, .contact-icons {
-  color: #f7df1e;
-  font-size: 40px;
+  color: #ff033a;
   font-size: 2.5rem; }
 
 .project-btn {
@@ -199,36 +149,25 @@ h3 {
 .project-bg {
   height: auto;
   background-color: transparent;
-  padding: 12px;
   padding: 0.75rem;
   opacity: 0.80;
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: ease-in-out;
-       -o-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out; }
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out; }
 
 .project-bg:hover {
   opacity: 1; }
 
 .project-name {
-  font-family: "Raleway", sans-serif;
-  font-size: 12px;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 0.75rem;
   color: #fff8dc;
   border-top: 1px solid #03b8ff;
   border-bottom: 1px solid #03b8ff;
-  padding: 4px;
   padding: 0.25rem; }
 
 .contact-icons {
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: ease-in-out;
-       -o-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out; }
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out; }
 
 .contact-icons:hover {
   color: #03b8ff; }
@@ -243,15 +182,13 @@ h3 {
 
 .invalid-info, .invalid-name, .invalid-email, .invalid-number, .invalid-message {
   display: none;
-  margin-top: 4px;
   margin-top: .25rem;
-  font-size: 11.2px;
   font-size: .7rem;
-  color: #f7df1e; }
+  color: #ff033a; }
 
 .invalid-border {
   display: block;
-  border: 1px solid #f7df1e; }
+  border: 1px solid #ff033a; }
 
 .contact-submit-button {
   border: none;
@@ -259,12 +196,8 @@ h3 {
   color: #fff8dc;
   border-radius: 0.25rem;
   cursor: pointer;
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: ease-in-out;
-       -o-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out; }
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out; }
 
 .contact-submit-button:hover {
   background-color: #fff8dc;
@@ -276,49 +209,38 @@ h3 {
   color: #141516;
   border-radius: 0.25rem;
   cursor: pointer;
-  -webkit-transition-duration: 250ms;
-       -o-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: ease-in-out;
-       -o-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out; }
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out; }
 
 .modal-close-button:hover {
   color: #03b8ff; }
 
 .copyright {
-  font-family: "Raleway", sans-serif;
-  font-size: 10px;
+  font-family: "Julius Sans One", sans-serif;
   font-size: 0.625rem;
   color: #fff8dc; }
 
 .mobile-home-icons {
   font-size: 40px;
-  color: #f7df1e; }
+  color: #ff033a; }
 
 .mobile-home-content {
-  font-size: 16px;
   font-size: 1rem;
   color: #fff8dc; }
 
 .navbar-toggler {
-  padding: 12px;
   padding: 0.75rem;
-  font-size: 16px;
   font-size: 1rem;
   line-height: 1;
   background: 0 0;
   border: none;
   border-radius: 0;
-  margin-top: 1.6px;
   margin-top: 0.1rem;
-  margin-bottom: 1.6px;
   margin-bottom: 0.1rem; }
 
 .navbar-toggler-icon {
   color: #fff8dc;
   height: 1.0em;
-  margin-right: 16px;
   margin-right: 1rem; }
 
 .form-control {
@@ -326,16 +248,9 @@ h3 {
   color: #141516; }
 
 .dropdown-menu {
-  font-family: "Raleway", sans-serif;
-  background-color: transparent;
-  color: #fff8dc;
-  min-width: 176px;
+  font-family: "Julius Sans One", sans-serif;
+  background-color: #fff8dc;
+  color: #141516;
   min-width: 11rem; }
-
-.sidebar-left, .sidebar-center, .sidebar-right {
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
-  font-size: 1rem;
-  color: #fff8dc; }
 
 /*# sourceMappingURL=style.css.map */
