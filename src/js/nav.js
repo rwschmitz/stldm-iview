@@ -1,16 +1,17 @@
 // Provides the animation for each navigation element that has a drop down component
 
-var listeners = [document.getElementById("mainDropDown1")]; // Puts all the elements in an array
+
 var flag = [false, false, false]; // Initializes all flags to false
 
 if (window.matchMedia('(min-width: 1200px)').matches) {
-
+    var listeners = [document.getElementById("desktopDropDown")]; // Puts all the elements in an array
     for (var i = 0; i < listeners.length; i++) { // Creating all event listeners.
     listeners[i].addEventListener("mouseenter", drop, false);
     listeners[i].addEventListener("mouseleave", noDrop, false);
     }
 
 } else {
+    var listeners = [document.getElementById("mobileDropDown")]; // Puts all the elements in an array
     for (var i = 0; i < listeners.length; i++) { // Creating all event listeners.
         listeners[i].addEventListener("click", drop, false);
     }
