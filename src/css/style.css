@@ -166,7 +166,8 @@ ol {
   background-color: #fffbed;
   color: #141516;
   border-color: #d2d4d6;
-  min-width: 8.5rem; }
+  min-width: 8.5rem;
+  left: inherit; }
 
 .display-3 {
   color: #0890ef; }
