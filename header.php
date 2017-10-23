@@ -32,7 +32,7 @@
             <a href="https://newtpress.com/stldm-iview/menu-item-2" class="nav-link nav-item"  data-target=".navbar-collapse.show"><button id="goMenu" class="nav-btn underline">menu item 2</button></a>
 
 
-            <a href="https://newtpress.com/stldm-iview/menu-item-3" id="mainDropDown1" class="nav-link nav-item" data-target=".navbar-collapse.show">
+            <a href="https://newtpress.com/stldm-iview/menu-item-3" id="mainDropDown1" class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                 <div id="drop1" class="dropdown">
                     <button class="nav-btn underline">menu item 3</button></a>
                     <div id="subdrop1" class="dropdown-menu">
