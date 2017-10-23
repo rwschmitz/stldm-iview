@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php if (is_front_page()) { ?>
+
 
 
 
@@ -17,11 +17,12 @@
     <div class="container py-3">
         <div class="row">
             <div class="col-xl-12">
+                ?????????????
                 <?php the_content(); ?>
             </div> <!-- End col -->
         </div> <!-- End row -->
     </div> <!-- End container -->
 
    
-<?php } ?>
+
 <?php get_footer(); ?>
