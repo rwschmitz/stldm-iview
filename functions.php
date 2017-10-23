@@ -18,7 +18,6 @@ function newt_scripts() {
 	wp_enqueue_style('julius-sans-one-font', 'https://fonts.googleapis.com/css?family=Julius+Sans+One');
 	wp_enqueue_script('popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js');
 	wp_enqueue_script('bootstrap-js', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js');
-	wp_enqueue_script('scroll', get_template_directory_uri() . '/src/js/scroll.js');
 	wp_enqueue_script('nav', get_template_directory_uri() . '/src/js/nav.js');
 }
 

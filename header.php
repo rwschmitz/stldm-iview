@@ -13,7 +13,7 @@
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <?php wp_head(); ?>
 
-    <!--<title>Mario's Italian Restaurant | Matthews, North Carolina (NC) | Pizza, drinks and more! | Reserve a banquet room today!</title>-->
+    <title>Demo for STLDM | Custom Wordpress Theme for Interview @ STLDM</title>
 </head>
 
 <!-- Navigation start -->
@@ -53,7 +53,7 @@
                     </div>
                 </a>
 
-                <a id="goAbout" class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a href="our-story" id="goAbout" class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <div id="drop3" class="dropdown">
                             <button class="nav-btn underline">about</button>
                             <div id="subdrop3" class="dropdown-menu">
@@ -68,7 +68,7 @@
             <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goAbout" class="nav-btn underline">contact</button></a>
         </div>
     </nav>
-</div>
+</div> <!-- End no gutters -->
 <!-- Navigation end -->
 
    
