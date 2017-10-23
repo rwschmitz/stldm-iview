@@ -29,14 +29,11 @@
         <div class="justify-content-end collapse navbar-collapse" id="navbarInfo">
             <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goHome" class="nav-btn underline">LINK 1</button></a>
             <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goMenu" class="nav-btn underline">LINK 2</button></a>
-            <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goSpecials" class="nav-btn underline">LINK 3</button></a>
-            <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goOrder" class="nav-btn underline">LINK 4</button></a>
-            <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goOrder" class="nav-btn underline">LINK 5</button></a>
-            
+
 
             <a id="goServices" class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                 <div id="drop1" class="dropdown">
-                    <button class="nav-btn underline">LINK</button>
+                    <button class="nav-btn underline">LINK 3</button>
                     <div id="subdrop1" class="dropdown-menu">
                         <li><button class="nav-drop-btn underline">SUB-LINK 1</button></li>
                         <li><button class="nav-drop-btn underline">SUB-LINK 1</button></li>
@@ -44,6 +41,13 @@
                     </div>
                 </div>
             </a>
+
+
+            <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goOrder" class="nav-btn underline">LINK 4</button></a>
+            <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goOrder" class="nav-btn underline">LINK 5</button></a>
+            
+
+
         </div>
     </nav>
 </div> <!-- End no gutters -->
