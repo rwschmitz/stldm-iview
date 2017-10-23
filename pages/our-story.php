@@ -30,9 +30,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
-                <?php get_post(); ?>
-                <?php get_post_meta(get_the_ID(), 'our-story'); ?>
-                <?php the_post(); ?>
+                <h1><?php get_post(); ?></h1>
+                <h1><?php get_post_meta(get_the_ID(), 'our-story'); ?></h1>
+                <h1><?php the_post(); ?></h1>
                 <h1>ensuring this container even works</h1>
             </div> <!--- End col -->
         </div> <!-- End row -->
