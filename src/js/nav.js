@@ -13,6 +13,7 @@ if (window.matchMedia('(min-width: 1200px)').matches) {
 } else {
     for (var i = 0; i < listeners.length; i++) { // Creating all event listeners.
         listeners[i].addEventListener("click", drop, false);
+        listeners[i].addEventListener("click", noDrop, false);
     }
 }
 
