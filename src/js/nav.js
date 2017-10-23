@@ -9,13 +9,9 @@ if (window.matchMedia('(min-width: 1200px)').matches) {
     listeners[i].addEventListener("mouseenter", drop, false);
     listeners[i].addEventListener("mouseleave", noDrop, false);
     }
+} 
 
-} else {
-    var listeners = [document.getElementById("mobileDropDown")]; // Puts all the elements in an array
-    for (var i = 0; i < listeners.length; i++) { // Creating all event listeners.
-        listeners[i].addEventListener("click", mobileDrop, false);
-    }
-}
+
 
 
 
@@ -39,6 +35,9 @@ function noDrop() { // Determins which drop down menu to hide
    }
 }
 
+
+var listeners = [document.getElementById("mobileDropDown")]; // Puts all the elements in an array
+
 function mobileDrop(e) { // Determines which drop down menu to show
     var target = $(e.target);
     if (target.is(listeners[0])) {
@@ -56,5 +55,6 @@ function mobileNoDrop() {
            $('#subdrop1').fadeOut(250).removeClass("show");
         });
         flag[0] = false;
+        listeners[i].addEventListener("click", mobileDrop, false);
      }
 }
