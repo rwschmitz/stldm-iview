@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
-                <div class="content">>
+                <div class="content">
                     <?php the_content(); // Allows the user to change the page content from the Wordpress dashboard?>
                 </div>
             </div> <!--- End col -->
