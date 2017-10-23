@@ -1,6 +1,6 @@
 // Provides the animation for each navigation element that has a drop down component
 
-function rwsFinction() {
+function rwsFunction() {
 
 var listeners = [document.getElementById("mainDropDown1")]; // Puts all the elements in an array
 var flag = [false, false, false]; // Initializes all flags to false
