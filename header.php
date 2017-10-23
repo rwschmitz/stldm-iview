@@ -17,7 +17,7 @@
 </head>
 
 <!-- Navigation start -->
-<div class="no-gutters">
+<div class="no-gutters pb-5">
     <nav class="nav fixed-top navbar-expand-lg nav-style">
 
         <!-- Button responsible for opening/closing navbar on mobile -->
@@ -53,7 +53,7 @@
                     </div>
                 </a>
 
-                <a href="our-story" id="goAbout" class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a href="our-story" id="goAbout" class="nav-link nav-item" data-target=".navbar-collapse.show"> <!-- removed data-toggle="collapse" -->
                         <div id="drop3" class="dropdown">
                             <button class="nav-btn underline">about</button>
                             <div id="subdrop3" class="dropdown-menu">

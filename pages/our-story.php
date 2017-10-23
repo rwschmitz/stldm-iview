@@ -5,7 +5,7 @@
 <!-- Landing page start -->
 
 
-    <div class="container mt-5">
+    <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <div class="header text-center">
