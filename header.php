@@ -27,24 +27,24 @@
 
         <!-- Actual navbar links -->
         <div class="justify-content-end collapse navbar-collapse" id="navbarInfo">
-            <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goHome" class="nav-btn underline">link 1</button></a>
-            <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goMenu" class="nav-btn underline">link 2</button></a>
+            <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goHome" class="nav-btn underline">menu item 1</button></a>
+            <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goMenu" class="nav-btn underline">menu item 2</button></a>
 
 
             <a id="mainDropDown1" class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                 <div id="drop1" class="dropdown">
-                    <button class="nav-btn underline">link 3</button>
+                    <button class="nav-btn underline">menu item 3</button>
                     <div id="subdrop1" class="dropdown-menu">
-                        <li><button class="nav-drop-btn underline">sub-link 1</button></li>
-                        <li><button class="nav-drop-btn underline">sub-link 1</button></li>
-                        <li><button class="nav-drop-btn underline">sub-link 1</button></li>
+                        <li><button class="nav-drop-btn underline">sub-menu item 1</button></li>
+                        <li><button class="nav-drop-btn underline">sub-menu item 2</button></li>
+                        <li><button class="nav-drop-btn underline">sub-menu item 3</button></li>
                     </div>
                 </div>
             </a>
 
 
-            <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goOrder" class="nav-btn underline">link 4</button></a>
-            <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goOrder" class="nav-btn underline">link 5</button></a>
+            <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goOrder" class="nav-btn underline">menu item 4</button></a>
+            <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goOrder" class="nav-btn underline">menu item 5</button></a>
             
 
 
