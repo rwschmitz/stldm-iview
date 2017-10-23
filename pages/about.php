@@ -8,7 +8,7 @@
 <div class="container">
     <div class="row">
         <div class="col-xl-12">
-            <h1> THIS IS THE ABOUT PAGE!!!! </h1>
+            <h1> hello world </h1>
         </div>
     </div>
 </div>
