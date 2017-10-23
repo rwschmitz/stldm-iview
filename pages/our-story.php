@@ -5,7 +5,7 @@
 <!-- Landing page start -->
 
 
-    <div class="container">
+    <div class="container pt-3 pb-3">
         <div class="row">
             <div class="col-xl-12">
                 <div class="header text-center">
@@ -16,11 +16,21 @@
     </div> <!-- End container -->
 
 
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="subheader text-center">
+                    <?php echo get_post_meta(get_the_ID(), 'sub-title', true); // Allows the user to change the sub-title of each page from the Wordpress dashboard ?> 
+                    <?php the_content(); // Allows the user to change the page content from the Wordpress dashboard?>
+                </div>
+            </div> <!--- End col -->
+        </div> <!-- End row -->
+    </div> <!-- End container -->
+
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
-                <div class="content">
-                    <?php echo get_post_meta(get_the_ID(), 'sub-title', true); // Allows the user to change the sub-title of each page from the Wordpress dashboard ?> 
+                <div class="content text-center">
                     <?php the_content(); // Allows the user to change the page content from the Wordpress dashboard?>
                 </div>
             </div> <!--- End col -->

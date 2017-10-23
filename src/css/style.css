@@ -1,4 +1,3 @@
-/*#ff033a*/
 .underline {
   display: inline-block;
   vertical-align: middle;
@@ -83,12 +82,12 @@ ol {
 .header {
   font-family: "Raleway", sans-serif;
   font-size: 1.875rem;
-  color: #ff033a; }
+  color: #6ed3cf; }
 
 .subheader {
   font-family: "Raleway", sans-serif;
   font-size: 1.25rem;
-  color: #ff033a; }
+  color: #6ed3cf; }
 
 .content {
   font-family: "Raleway", sans-serif;
@@ -104,7 +103,7 @@ ol {
   transition-timing-function: linear; }
 
 .default-btn:hover {
-  color: #ff033a; }
+  color: #6ed3cf; }
 
 .default-btn:focus {
   outline: 0; }
@@ -120,7 +119,7 @@ ol {
   color: #141516; }
 
 .icons {
-  color: #ff033a;
+  color: #6ed3cf;
   font-size: 2.5rem; }
 
 .copyright {
@@ -130,7 +129,7 @@ ol {
 
 .mobile-home-icons {
   font-size: 40px;
-  color: #ff033a; }
+  color: #6ed3cf; }
 
 .mobile-home-content {
   font-size: 1rem;
