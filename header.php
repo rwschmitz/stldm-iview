@@ -35,9 +35,9 @@
                 <div id="drop1" class="dropdown">
                     <button class="nav-btn underline">menu item 3</button>
                     <div id="subdrop1" class="dropdown-menu">
-                        <li><button class="nav-drop-btn underline">sub-menu item 1</button></li>
-                        <li><button class="nav-drop-btn underline">sub-menu item 2</button></li>
-                        <li><button class="nav-drop-btn underline">sub-menu item 3</button></li>
+                        <li><button class="nav-drop-btn underline">Sub-menu item 1</button></li>
+                        <li><button class="nav-drop-btn underline">Sub-menu item 2</button></li>
+                        <li><button class="nav-drop-btn underline">Sub-menu item 3</button></li>
                     </div>
                 </div>
             </a>
