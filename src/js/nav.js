@@ -53,7 +53,8 @@ function mobileDrop(e) { // Determines which drop down menu to show
     } 
  }
 
-function mobileNoDrop() {
+function mobileNoDrop(e) {
+    var target = $(e.target);
     if (flag[0] === true && target.is(listeners[0])) {
         $(function() {
            $('#subdrop1').fadeOut(250).removeClass("show");
