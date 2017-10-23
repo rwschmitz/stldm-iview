@@ -61,6 +61,5 @@ function mobileNoDrop(e) {
         });
         flag[0] = false;
         console.log("mobile NO DROP occured");
-        listeners[0].addEventListener("click", mobileDrop, false);
      }
 }
