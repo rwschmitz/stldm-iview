@@ -1,5 +1,7 @@
 // Provides the animation for each navigation element that has a drop down component
 
+function rwsFinction() {
+
 var listeners = [document.getElementById("mainDropDown1")]; // Puts all the elements in an array
 var flag = [false, false, false]; // Initializes all flags to false
 
@@ -12,6 +14,8 @@ for (var i = 0; i < items.length; i++) { // Creating all event listeners.
    items[i].addEventListener("mouseenter", drop, false);
    items[i].addEventListener("mouseleave", noDrop, false);
 }
+
+
 
 function drop(e) { // Determines which drop down menu to show
    var target = $(e.target);
@@ -31,3 +35,10 @@ function noDrop() { // Determins which drop down menu to hide
       flag[0] = false;
    }
 }
+
+drop();
+noDrop();
+
+}
+
+rwsFunction();
