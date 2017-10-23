@@ -47,16 +47,17 @@ function mobileDrop(e) { // Determines which drop down menu to show
        });
        flag[0] = true;
        listeners[0].addEventListener("click", mobileNoDrop, false);
+       console.log("mobile drop occured");
     } 
  }
 
-function mobileNoDrop(e) {
+function mobileNoDrop() {
     if (flag[0]) {
         $(function() {
            $('#subdrop1').fadeOut(250).removeClass("show");
         });
         flag[0] = false;
-        e = listeners[0].addEventListener("click", mobileDrop, false);
-        return e;
+        listeners[0].addEventListener("click", mobileDrop, false);
+        console.log("mobile NO DROP occured");
      }
 }
