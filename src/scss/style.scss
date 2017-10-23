@@ -72,13 +72,13 @@
     }
 
     .nav-style a {
-        color: $white;
+        color: $primary-color;
         text-decoration: none;
     }
 
     .nav-btn {
         background-color: transparent;
-        color: $white;
+        color: $primary-color;
         border: none;
         cursor: pointer;
         font-family: $nav-font;
@@ -93,7 +93,7 @@
 
     .nav-drop-btn {
         background-color: transparent;
-        color: $white;
+        color: $primary-color;
         border: none;
         cursor: pointer;
         font-family: $nav-drop-font;
@@ -121,50 +121,34 @@
     .header {
         font-family: $header-font;
         font-size: $header-font-size;
-        color: $red;
+        color: $accent-color;
     }
 
     .subheader {
         font-family: $subheader-font;
         font-size: $subheader-font-size;
-        color: $red;
+        color: $accent-color;
     }
 
     .content {
         font-family: $content-font;
         font-size: $content-font-size;
-        color: $white;
+        color: $primary-color;
     }
 
-    .content-inverse {
-        font-family: $content-font;
-        font-size: $content-font-size;
-        color: $black;
-    }
 
-    .content-inverse a {
-        color: $blue;
-        transition-duration: $hover-time;
-        transition-timing-function: ease-in-out;
-        text-decoration: none;
-    }
-
-    .content-inverse a:hover {
-        font-weight: 700;
-        color: $black;
-    }
 
     .default-btn {
         background: transparent;
         border: none;
-        color: $white;
+        color: $primary-color;
         cursor: pointer;
         transition-duration: $hover-time;
         transition-timing-function: linear;
     }
 
     .default-btn:hover {
-        color: $red;
+        color: $accent-color;
     }
 
     .default-btn:focus {
@@ -174,130 +158,36 @@
     .intro {
         font-family: $intro-font;
         font-size: $intro-font-size;
-        color: $white;
+        color: $primary-color;
     }
 
     .subintro {
         font-family: $subintro-font;
         font-size: $subintro-font-size;
-        color: $white;
+        color: $primary-color;
     }
 
     .icons {
-        color: $red;
+        color: $accent-color;
         font-size: $icons-size;
     }
 
-    .project-btn {
-        background-color: transparent;
-        border: none;
-        padding: 0;
-        cursor: pointer;
-    }
-
-    .project-btn:focus {
-        outline: 0;
-    }
-
-     .project-bg {
-        height: auto;
-        background-color: transparent;
-        padding: 0.75rem;
-        opacity: 0.80;
-        transition-duration: $hover-time;
-        transition-timing-function: ease-in-out;
-     }
-
-     .project-bg:hover {
-        opacity: 1;
-     }
-
-     .project-name {
-        font-family: $project-font;
-        font-size: $project-font-size;
-        color: $white;
-        border-top: 1px solid $blue;
-        border-bottom: 1px solid $blue;
-        padding: 0.25rem;
-     }
-
-    .contact-icons {
-        @extend .icons;
-        transition-duration: $hover-time;
-        transition-timing-function: ease-in-out;
-    }
-
-    .contact-icons:hover {
-        color: $blue;
-    }
-
-    .default-border {
-        display: block;
-        border: 1px solid $blue;
-    }
-          
-    .valid-border {
-        display: block;
-        border: 1px solid $blue; 
-    }
-    
-    .invalid-info, .invalid-name, .invalid-email, .invalid-number, .invalid-message {
-        display: none;
-        margin-top: .25rem;
-        font-size: .7rem;
-        color: $red;
-    }
-
-    .invalid-border {
-        display: block;
-        border: 1px solid $red; 
-    }
-
-    .contact-submit-button {
-        border: none;
-        background-color: $blue;
-        color: $white;
-        border-radius: 0.25rem;
-        cursor: pointer;
-        transition-duration: $hover-time;
-        transition-timing-function: ease-in-out;
-    }
-
-    .contact-submit-button:hover {
-        background-color: $white;
-        color: $blue;
-    }
-
-    .modal-close-button {
-        border: none;
-        background-color: $white;
-        color: $black;
-        border-radius: 0.25rem;
-        cursor: pointer;
-        transition-duration: $hover-time;
-        transition-timing-function: ease-in-out;
-    }
-
-    .modal-close-button:hover {
-        color: $blue;
-    }
-    
     .copyright {
         font-family: $copyright-font;
         font-size: $copyright-font-size;
-        color: $white;
+        color: $primary-color;
     }
     
     // Mobile only
 
     .mobile-home-icons {
         font-size: $mobile-icon-size;
-        color: $red;
+        color: $accent-color;
     }
 
     .mobile-home-content {
         font-size: $content-font-size;
-        color: $white;
+        color: $primary-color;
     }
     
     // Desktop only
@@ -316,20 +206,20 @@
     }
 
     .navbar-toggler-icon {
-        color: $white;
+        color: $primary-color;
         height: 1.0em;
         margin-right: 1rem;
     }
 
     .form-control {
-        background-color: $white;
+        background-color: $primary-color;
         color: $black;
     }
 
     .dropdown-menu {
         font-family: $nav-font;
         background-color: transparent;
-        color: $white;
+        color: $primary-color;
         min-width: 11rem;   
     }
 
