@@ -53,7 +53,8 @@
                     </div>
                 </a>
 
-                <a href="our-story" id="goAbout" class="nav-link nav-item" data-target=".navbar-collapse.show"> <!-- removed data-toggle="collapse" -->
+                <!--
+                <a href="our-story" id="goAbout" class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"> removed data-toggle="collapse" 
                         <div id="drop3" class="dropdown">
                             <button class="nav-btn underline">about</button>
                             <div id="subdrop3" class="dropdown-menu">
@@ -64,6 +65,23 @@
                             </div>
                         </div>
                     </a>
+                -->
+
+
+                <a id="goAbout" class="nav-link nav-item" > <!-- removed data-toggle="collapse" data-target=".navbar-collapse.show"-->
+                        <div id="drop3" class="dropdown">
+                            <button class="nav-btn underline">about</button>
+                            <div id="subdrop3" class="dropdown-menu">
+                                <li><a href="our-story"><button class="nav-drop-btn underline">Our Story</button></a></li>
+                                <li><button class="nav-drop-btn underline">Events</button></li>
+                                <li><button class="nav-drop-btn underline">Gallery</button></li>
+                                <li><button class="nav-drop-btn underline">Blog</button></li>
+                            </div>
+                        </div>
+                    </a>
+
+
+
 
             <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goAbout" class="nav-btn underline">contact</button></a>
         </div>
