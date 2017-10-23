@@ -1,10 +1,10 @@
 // Provides the animation for each navigation element that has a drop down component
 
-var listeners = [document.getElementById("goServices"), document.getElementById("goReviews"), document.getElementById("goAbout")]; // Puts all the elements in an array
+var listeners = [document.getElementById("mainDropDown1")]; // Puts all the elements in an array
 var flag = [false, false, false]; // Initializes all flags to false
 
 const items = listeners.map(function(item) { // Takes every item in the listeners array and maps it to items
-   return item; //
+   return item; 
 });
 
 
