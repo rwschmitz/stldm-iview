@@ -32,6 +32,9 @@ html, body {
 ol {
   padding-left: 1rem; }
 
+#mainDropDown1 {
+  z-index: 2000; }
+
 .nav-logo {
   max-width: 50%;
   height: auto; }
