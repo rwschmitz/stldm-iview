@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<body>
+
 
     <div class="container">
         <div class="jumbotron-fluid pt-5 pb-3 text-center">
