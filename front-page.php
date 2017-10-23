@@ -1,7 +1,11 @@
 <?php get_header(); ?>
 
-<?php if (is_front_page() && !is_home()) { ?>
-    <?php } ?>
+<?php // Show the selected frontpage content.
+		if ( have_posts() ) :
+			while ( have_posts() ) : the_post();
+				get_template_part( 'template-parts/page/content', 'front-page' );
+			endwhile;
+        endif; ?>
 
     <div class="container">
         <div class="jumbotron-fluid pt-5 pb-3 text-center">
