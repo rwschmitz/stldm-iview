@@ -37,10 +37,10 @@ function noDrop() { // Determins which drop down menu to hide
 
 
 var listeners = [document.getElementById("mobileDropDown")]; // Puts all the elements in an array
-listeners[0].addEventListener("click", mobileDrop, false);
+listeners[0].addEventListener("touchstart", mobileDrop, false);
 
 function assignMobile () {
-    listeners[0].addEventListener("click", mobileDrop, false);
+    listeners[0].addEventListener("touchstart", mobileDrop, false);
     console.log("assigned");
 }
 
@@ -52,7 +52,7 @@ function mobileDrop(e) { // Determines which drop down menu to show
           $('#subdrop1').fadeIn(250).addClass("show");
        });
        flag[0] = true;
-       listeners[0].addEventListener("click", mobileNoDrop, false);
+       listeners[0].addEventListener("touchstart", mobileNoDrop, false);
        console.log("mobile drop occured");
     } 
  }
