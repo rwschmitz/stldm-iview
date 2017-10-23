@@ -12,7 +12,7 @@
 
     <div class="container">
         <div class="jumbotron-fluid pt-5 pb-3 text-center">
-            <h1 class="display-3">
+            <h1 class="display-4">
                 <?php echo get_post_meta(get_the_ID(), 'home-jumbotron', true); ?>
             </h1> <!-- End display -->
             <p class="lead">
