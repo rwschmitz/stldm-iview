@@ -13,7 +13,7 @@
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <?php wp_head(); ?>
 
-    <title>Demo for STLDM | Custom Wordpress Theme for Interview @ STLDM</title>
+    <!--<title>Demo for STLDM | Custom Wordpress Theme for Interview @ STLDM</title>-->
 </head>
 
 <!-- Navigation start -->
@@ -45,9 +45,6 @@
 
             <a href="https://newtpress.com/stldm-iview/menu-item-4" class="nav-link nav-item"  data-target=".navbar-collapse.show"><button id="goMenu" class="nav-btn underline">menu item 4</button></a>
             <a href="https://newtpress.com/stldm-iview/menu-item-5" class="nav-link nav-item"  data-target=".navbar-collapse.show"><button id="goMenu" class="nav-btn underline">menu item 5</button></a>
-            
-
-<!-- removed data-toggle="collapse" -->
         </div>
     </nav>
 </div> <!-- End no gutters -->
