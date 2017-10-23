@@ -32,8 +32,8 @@
             <a href="https://newtpress.com/stldm-iview/menu-item-2" class="nav-link nav-item"  data-target=".navbar-collapse.show"><button id="goMenu" class="nav-btn underline">menu item 2</button></a>
 
             <div class="nav-link nav-item">
-            <a id="mainDropDown1" href="https://newtpress.com/stldm-iview/menu-item-3" data-target=".navbar-collapse.show"></a>
-                <button class="nav-btn underline">menu item 3</button>
+            <a href="https://newtpress.com/stldm-iview/menu-item-3" data-target=".navbar-collapse.show"></a>
+                <button id="mainDropDown1" class="nav-btn underline">menu item 3</button>
                     <div id="subdrop1" class="dropdown-menu">
                         <li><button class="nav-drop-btn underline"><a href="https://newtpress.com/stldm-iview/sub-menu-item-1">Sub-menu item 1</a></button></li>
                         <li><button class="nav-drop-btn underline"><a href="https://newtpress.com/stldm-iview/sub-menu-item-2">Sub-menu item 2</a></button></li>
