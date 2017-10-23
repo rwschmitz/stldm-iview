@@ -6,7 +6,7 @@
 
 
     <!-- Landing page start -->
-    <div class="no-gutters landing">
+    <div class="no-gutters">
 
 
     </div> <!-- End no-gutters -->
