@@ -7,7 +7,7 @@
 
     <div class="container">
         <div class="jumbotron-fluid pt-5 pb-3 text-center">
-            <h1 class="display-1">
+            <h1 class="display-3">
                 Rudolph Schmitz - Web Developer
             </h1> <!-- End display -->
             <p class="lead">
@@ -30,7 +30,7 @@
                 <div class="py-1">
                     <img class="img-fluid" src="wp-content/themes/demo/src/imgs/rs-img.jpg" alt="Rudolph Schmitz">
                 </div>
-                <div class="py-2">
+                <div class="py-2 img-captions">
                     Myself and my girlfriend: Stephanie Huynh - Hero NICU Nurse
                 </div>
             </div> <!-- End col -->

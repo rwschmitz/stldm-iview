@@ -37,14 +37,14 @@ ol {
   height: auto; }
 
 .nav-style {
-  background-color: transparent; }
+  background-color: #fffbed; }
 
 .nav-style a {
   color: #141516;
   text-decoration: none; }
 
 .nav-btn {
-  background-color: transparent;
+  background-color: #fffbed;
   color: #141516;
   border: none;
   cursor: pointer;
@@ -94,6 +94,11 @@ ol {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
   color: #141516; }
+
+.img-captions {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.85rem;
+  color: #0890ef; }
 
 .default-btn {
   background: #fffbed;
@@ -163,7 +168,7 @@ ol {
   border-color: #d2d4d6;
   min-width: 11rem; }
 
-.display-1 {
+.display-3 {
   color: #0890ef; }
 
 .lead {

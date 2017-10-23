@@ -68,7 +68,7 @@
     }
 
     .nav-style {
-        background-color: transparent;
+        background-color: $primary-color;
     }
 
     .nav-style a {
@@ -77,7 +77,7 @@
     }
 
     .nav-btn {
-        background-color: transparent;
+        background-color: $primary-color;
         color: $content-color;
         border: none;
         cursor: pointer;
@@ -137,7 +137,12 @@
         color: $content-color;
     }
 
+    .img-captions {
+        font-family: $caption-font;
+        font-size: $caption-font-size;
+        color: $accent-color;
 
+    }
 
     .default-btn {
         background: $primary-color;
@@ -226,7 +231,7 @@
         min-width: 11rem;   
     }
 
-    .display-1 {
+    .display-3 {
         color: $accent-color;
     }
 
