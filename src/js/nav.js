@@ -2,7 +2,7 @@
 
 var listeners = [document.getElementById("mainDropDown1")]; // Puts all the elements in an array
 var flag = [false, false, false]; // Initializes all flags to false
-/*
+
 if (window.matchMedia('(min-width: 1200px)').matches) {
 
     for (var i = 0; i < listeners.length; i++) { // Creating all event listeners.
@@ -13,15 +13,12 @@ if (window.matchMedia('(min-width: 1200px)').matches) {
 } else {
     for (var i = 0; i < listeners.length; i++) { // Creating all event listeners.
         listeners[i].addEventListener("touchstart", drop, false);
-        listeners[i].addEventListener("touchstart", noDrop, false);
+        listeners[i].addEventListener("touchend", noDrop, false);
     }
 }
-*/
 
-for (var i = 0; i < listeners.length; i++) { // Creating all event listeners.
-    listeners[i].addEventListener("click", drop, false);
-    listeners[i].addEventListener("click", noDrop, false);
-    }
+
+
 
 function drop(e) { // Determines which drop down menu to show
    var target = $(e.target);
