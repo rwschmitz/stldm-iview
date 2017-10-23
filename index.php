@@ -5,15 +5,16 @@
 
 
 
-
-    <div class="jumbotron-fluid pt-5 pb-3 text-center">
-         <h1 class="display-1">
-            Rudolph Schmitz - Web Developer
-        </h1> <!-- End display -->
-        <p class="lead">
-            As of 10/23/2017, I've been alive for 10,685.  This is my best streak so far and I look forward to topping it tomorrow.
-        </p>   <!-- End lead -->
-    </div> <!-- End jumbotron -->
+    <div class="container">
+        <div class="jumbotron-fluid pt-5 pb-3 text-center">
+            <h1 class="display-1">
+                Rudolph Schmitz - Web Developer
+            </h1> <!-- End display -->
+            <p class="lead">
+                As of 10/23/2017, I've been alive for 10,685.  This is my best streak so far and I look forward to topping it tomorrow.
+            </p>   <!-- End lead -->
+        </div> <!-- End jumbotron -->
+    </div> <!-- End container -->
     
     <div class="container py-3">
         <div class="row">
@@ -25,8 +26,10 @@
 
     <div class="container py-3">
         <div class="row">
-            <div class="col-xl-12 d-flex justify-content-center">
-                <img class="img-fluid" src="wp-content/themes/demo/src/imgs/rs-img.jpg" alt="Rudolph Schmitz">
+            <div class="col-xl-12 text-center">
+                <div class="py-1">
+                    <img class="img-fluid" src="wp-content/themes/demo/src/imgs/rs-img.jpg" alt="Rudolph Schmitz">
+                </div>
                 <div class="py-2">
                     Myself and my girlfriend: Stephanie Huynh - Hero NICU Nurse
                 </div>
