@@ -34,7 +34,7 @@ if (window.matchMedia('(min-width: 992px)').matches) {
 } 
 
 if(window.matchMedia('(max-width: 991px)').matches) {
-
+    var flag = [false, false, false]; // Initializes all flags to false
     var listeners = [document.getElementById("mobileDropDown")]; // Puts all the elements in an array
     listeners[0].addEventListener("click", mobileDrop, false);
 
