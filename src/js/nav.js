@@ -37,7 +37,7 @@ function noDrop() { // Determins which drop down menu to hide
 
 
 var listeners = [document.getElementById("mobileDropDown")]; // Puts all the elements in an array
-
+listeners[0].addEventListener("click", mobileDrop, false);
 
 function mobileDrop(e) { // Determines which drop down menu to show
     var target = $(e.target);
@@ -50,12 +50,13 @@ function mobileDrop(e) { // Determines which drop down menu to show
     } 
  }
 
-function mobileNoDrop() {
+function mobileNoDrop(e) {
     if (flag[0]) {
         $(function() {
            $('#subdrop1').fadeOut(250).removeClass("show");
         });
         flag[0] = false;
-        listeners[0].addEventListener("click", mobileDrop, false);
+        e = listeners[0].addEventListener("click", mobileDrop, false);
+        return e;
      }
 }
