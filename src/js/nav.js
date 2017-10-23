@@ -63,7 +63,7 @@ function mobileNoDrop() {
            $('#subdrop1').fadeOut(250).removeClass("show");
         });
         flag[0] = false;
-        listeners[0].addEventListener("click", assignMobile, false);
+        listeners[0].addEventListener("touchstart", assignMobile, false);
         console.log("mobile NO DROP occured");
      }
 }
