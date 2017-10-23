@@ -14,7 +14,8 @@ get_header(); ?>
 			<?php
 			while ( have_posts() ) : the_post();
 
-				get_template_part( '/pages/our-story' ); // this will get the about page
+                get_template_part( '/pages/our-story', 'page' ) // this will get the about page
+                get comments_template( '', true); 
 
 				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) :
