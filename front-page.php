@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-
-
+<?php if (is_front_page() && !is_home()) { ?>
+    <?php } ?>
 
     <div class="container">
         <div class="jumbotron-fluid pt-5 pb-3 text-center">
@@ -19,10 +19,12 @@
             <div class="col-xl-12">
                 ?????????????
                 <?php the_excerpt(); ?>
+                <?php the_content(); ?>
+                <?php the_post(); ?>
             </div> <!-- End col -->
         </div> <!-- End row -->
     </div> <!-- End container -->
 
-   
+ 
 
 <?php get_footer(); ?>
