@@ -83,12 +83,12 @@ ol {
 .header {
   font-family: "Raleway", sans-serif;
   font-size: 1.875rem;
-  color: #22264b; }
+  color: #00c96d; }
 
 .subheader {
   font-family: "Raleway", sans-serif;
   font-size: 1.25rem;
-  color: #22264b; }
+  color: #00c96d; }
 
 .content {
   font-family: "Raleway", sans-serif;
@@ -104,7 +104,7 @@ ol {
   transition-timing-function: linear; }
 
 .default-btn:hover {
-  color: #22264b; }
+  color: #00c96d; }
 
 .default-btn:focus {
   outline: 0; }
@@ -120,7 +120,7 @@ ol {
   color: #141516; }
 
 .icons {
-  color: #22264b;
+  color: #00c96d;
   font-size: 2.5rem; }
 
 .copyright {
@@ -130,7 +130,7 @@ ol {
 
 .mobile-home-icons {
   font-size: 40px;
-  color: #22264b; }
+  color: #00c96d; }
 
 .mobile-home-content {
   font-size: 1rem;
