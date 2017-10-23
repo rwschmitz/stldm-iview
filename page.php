@@ -13,7 +13,7 @@ get_header(); ?>
 
 			<?php
 			while ( have_posts() ) : the_post();
-                get_post();
+                
                 get_template_part( '/pages/our-story', 'page' ); // this will get the about page
                 get_comments_template( '', true); 
 
