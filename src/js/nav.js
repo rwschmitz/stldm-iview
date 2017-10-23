@@ -1,25 +1,19 @@
 // Provides the animation for each navigation element that has a drop down component
 
-function rwsFunction() {
-
 var listeners = [document.getElementById("mainDropDown1")]; // Puts all the elements in an array
 var flag = [false, false, false]; // Initializes all flags to false
 
-const items = listeners.map(function(item) { // Takes every item in the listeners array and maps it to items
-   return item; 
-});
 
-
-for (var i = 0; i < items.length; i++) { // Creating all event listeners.
-   items[i].addEventListener("mouseenter", drop, false);
-   items[i].addEventListener("mouseleave", noDrop, false);
+for (var i = 0; i < listeners.length; i++) { // Creating all event listeners.
+   listeners[i].addEventListener("mouseenter", drop, false);
+   listeners[i].addEventListener("mouseleave", noDrop, false);
 }
 
 
 
 function drop(e) { // Determines which drop down menu to show
    var target = $(e.target);
-   if (target.is(items[0])) {
+   if (target.is(listeners[0])) {
       $(function() {
          $('#subdrop1').fadeIn(250).addClass("show");
       });
@@ -35,10 +29,3 @@ function noDrop() { // Determins which drop down menu to hide
       flag[0] = false;
    }
 }
-
-drop();
-noDrop();
-
-}
-
-rwsFunction();
