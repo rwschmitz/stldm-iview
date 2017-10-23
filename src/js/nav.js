@@ -37,6 +37,7 @@ function noDrop() { // Determins which drop down menu to hide
 
 
 var listeners = [document.getElementById("mobileDropDown")]; // Puts all the elements in an array
+console.log("test");
 listeners[0].addEventListener("click", mobileDrop, false);
 
 
