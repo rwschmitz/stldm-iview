@@ -27,7 +27,7 @@
 
         <!-- Actual navbar links -->
         <div class="justify-content-end collapse navbar-collapse" id="navbarInfo">
-            <a href="https://newtpress.com/stldm-iview/menu-item-1" class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goHome" class="nav-btn underline">menu item 1</button></a>
+            <a href="https://newtpress.com/stldm-iview/menu-item-1" class="nav-link nav-item"  data-target=".navbar-collapse.show"><button id="goHome" class="nav-btn underline">menu item 1</button></a>
             <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goMenu" class="nav-btn underline">menu item 2</button></a>
 
 
@@ -47,7 +47,7 @@
             <a class="nav-link nav-item" data-toggle="collapse" data-target=".navbar-collapse.show"><button id="goOrder" class="nav-btn underline">menu item 5</button></a>
             
 
-
+<!-- removed data-toggle="collapse" -->
         </div>
     </nav>
 </div> <!-- End no gutters -->
