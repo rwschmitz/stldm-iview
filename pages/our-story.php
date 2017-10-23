@@ -32,6 +32,7 @@
             <div class="col-xl-12">
                 <?php get_post(); ?>
                 <?php get_post_meta(get_the_ID(), 'our-story'); ?>
+                <?php the_post(); ?>
             </div> <!--- End col -->
         </div> <!-- End row -->
     </div> <!-- End container -->
