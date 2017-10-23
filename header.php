@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php wp_title(); ?></title>
     <link rel="profile" href="http://gmpg.org/xfn/11">
-    <!--<//?php wp_head(); ?>-->
+    <?php wp_head(); ?>
 
     <title>Demo for STLDM | Custom Wordpress Theme for Interview @ STLDM</title>
 </head>
