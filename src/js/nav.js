@@ -46,6 +46,7 @@ function mobileDrop(e) { // Determines which drop down menu to show
           $('#subdrop1').fadeIn(250).addClass("show");
        });
        flag[0] = true;
+       listeners[0].addEventListener("click", mobileNoDrop, false);
     } 
  }
 
@@ -55,5 +56,6 @@ function mobileNoDrop() {
            $('#subdrop1').fadeOut(250).removeClass("show");
         });
         flag[0] = false;
+        listeners[0].addEventListener("click", mobileDrop, false);
      }
 }
