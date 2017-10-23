@@ -7,7 +7,6 @@
 
     <!-- Landing page start -->
     <div class="no-gutters landing">
-        blah blah blah
 
         <div class="container">
             <div class="row">
