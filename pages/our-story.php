@@ -3,7 +3,7 @@
 
 
 <!-- Landing page start -->
-<div class="no-gutters">
+<div class="no-gutters lading">
 
 <div class="container">
     <div class="row">
