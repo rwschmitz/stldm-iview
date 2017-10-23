@@ -14,7 +14,7 @@
   left: 50%;
   right: 50%;
   bottom: 0;
-  background: #fff8dc;
+  background: #ff033a;
   height: 1px;
   transition-property: left, right;
   transition-duration: 250ms;
@@ -41,12 +41,12 @@ ol {
   background-color: transparent; }
 
 .nav-style a {
-  color: #fff8dc;
+  color: #141516;
   text-decoration: none; }
 
 .nav-btn {
   background-color: transparent;
-  color: #fff8dc;
+  color: #141516;
   border: none;
   cursor: pointer;
   font-family: "Julius Sans One", sans-serif;
@@ -59,7 +59,7 @@ ol {
 
 .nav-drop-btn {
   background-color: transparent;
-  color: #fff8dc;
+  color: #141516;
   border: none;
   cursor: pointer;
   font-family: "Antic", sans-serif;
@@ -93,12 +93,12 @@ ol {
 .content {
   font-family: "Julius Sans One", sans-serif;
   font-size: 1rem;
-  color: #fff8dc; }
+  color: #141516; }
 
 .default-btn {
   background: transparent;
   border: none;
-  color: #fff8dc;
+  color: #141516;
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: linear; }
@@ -112,12 +112,12 @@ ol {
 .intro {
   font-family: "Julius Sans One", sans-serif;
   font-size: 3.125rem;
-  color: #fff8dc; }
+  color: #141516; }
 
 .subintro {
   font-family: "Julius Sans One", sans-serif;
   font-size: 1.875rem;
-  color: #fff8dc; }
+  color: #141516; }
 
 .icons {
   color: #ff033a;
@@ -126,7 +126,7 @@ ol {
 .copyright {
   font-family: "Julius Sans One", sans-serif;
   font-size: 0.625rem;
-  color: #fff8dc; }
+  color: #141516; }
 
 .mobile-home-icons {
   font-size: 40px;
@@ -134,7 +134,7 @@ ol {
 
 .mobile-home-content {
   font-size: 1rem;
-  color: #fff8dc; }
+  color: #141516; }
 
 .navbar-toggler {
   padding: 0.75rem;
@@ -147,7 +147,7 @@ ol {
   margin-bottom: 0.1rem; }
 
 .navbar-toggler-icon {
-  color: #fff8dc;
+  color: #141516;
   height: 1.0em;
   margin-right: 1rem; }
 
@@ -158,7 +158,7 @@ ol {
 .dropdown-menu {
   font-family: "Julius Sans One", sans-serif;
   background-color: transparent;
-  color: #fff8dc;
+  color: #141516;
   min-width: 11rem; }
 
 /*# sourceMappingURL=style.css.map */
