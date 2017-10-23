@@ -58,7 +58,7 @@ ol {
   outline: 0; }
 
 .nav-drop-btn {
-  background-color: transparent;
+  background-color: #fffbed;
   color: #141516;
   border: none;
   cursor: pointer;
@@ -96,7 +96,7 @@ ol {
   color: #141516; }
 
 .default-btn {
-  background: transparent;
+  background: #fffbed;
   border: none;
   color: #141516;
   cursor: pointer;
@@ -158,9 +158,15 @@ ol {
 .dropdown-menu {
   font-family: "Julius Sans One", sans-serif;
   font-weight: 700;
-  background-color: transparent;
+  background-color: #fffbed;
   color: #141516;
   border-color: #d2d4d6;
   min-width: 11rem; }
+
+.display-1 {
+  color: #0890ef; }
+
+.lead {
+  color: #0890ef; }
 
 /*# sourceMappingURL=style.css.map */

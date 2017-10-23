@@ -93,7 +93,7 @@
     }
 
     .nav-drop-btn {
-        background-color: transparent;
+        background-color: $primary-color;
         color: $content-color;
         border: none;
         cursor: pointer;
@@ -140,7 +140,7 @@
 
 
     .default-btn {
-        background: transparent;
+        background: $primary-color;
         border: none;
         color: $content-color;
         cursor: pointer;
@@ -220,10 +220,18 @@
     .dropdown-menu {
         font-family: $nav-font;
         font-weight: $nav-font-weight;
-        background-color: transparent;
+        background-color: $primary-color;
         color: $content-color;
         border-color: lighten($content-color,75%);
         min-width: 11rem;   
+    }
+
+    .display-1 {
+        color: $accent-color;
+    }
+
+    .lead {
+        color: $accent-color;
     }
 
 // #####  IDS AND CLASSES END #####
