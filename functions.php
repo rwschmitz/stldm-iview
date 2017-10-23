@@ -71,10 +71,10 @@ add_action('widgets_init', 'newt_widgets_init');
 function defer_js_async($tag){
 	
 	// list of scripts to defer
-    $scripts_to_defer = array('');
+    $scripts_to_defer = array('/src/js/nav.js');
 
 	// list of scripts to async
-	$scripts_to_async = array('/src/js/nav.js', 'https://fonts.googleapis.com/css?family=Julius+Sans+One', 'https://fonts.googleapis.com/css?family=Raleway');
+	$scripts_to_async = array('https://fonts.googleapis.com/css?family=Julius+Sans+One', 'https://fonts.googleapis.com/css?family=Raleway');
 	 
 	// defer scripts
 	foreach($scripts_to_defer as $defer_script){
