@@ -11,9 +11,11 @@ if (window.matchMedia('(min-width: 1200px)').matches) {
     }
 
 } else {
-    for (var i = 0; i < listeners.length; i++) { // Creating all event listeners.
-        listeners[i].addEventListener("click", drop, false);
-    }
+        $("#mainDropDown1").toggle(function() {
+            console.log("toggle first");
+        }, function() {
+            console.log("toggle back");
+        });
 }
 
 
