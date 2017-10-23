@@ -20,17 +20,7 @@ function drop(e) { // Determines which drop down menu to show
          $('#subdrop1').fadeIn(250).addClass("show");
       });
       flag[0] = true;
-   } else if (target.is(items[1])) {
-      $(function() {
-         $('#subdrop2').fadeIn(250).addClass("show");
-      });
-      flag[1] = true;
-   } else if (target.is(items[2])) {
-      $(function() {
-         $('#subdrop3').fadeIn(250).addClass("show");
-      });
-      flag[2] = true;
-   }
+   } 
 }
 
 function noDrop() { // Determins which drop down menu to hide
@@ -39,15 +29,5 @@ function noDrop() { // Determins which drop down menu to hide
          $('#subdrop1').fadeOut(250).removeClass("show");
       });
       flag[0] = false;
-   } else if (flag[1]) {
-      $(function() {
-         $('#subdrop2').fadeOut(250).removeClass("show");
-      });
-      flag[1] = false;
-   } else if (flag[2]) {
-      $(function() {
-         $('#subdrop3').fadeOut(250).removeClass("show");
-      });
-      flag[2] = false;
    }
 }
