@@ -27,7 +27,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #fff8dc; }
+  background-color: #fffbed; }
 
 ol {
   padding-left: 1rem; }
@@ -152,7 +152,7 @@ ol {
   margin-right: 1rem; }
 
 .form-control {
-  background-color: #fff8dc;
+  background-color: #fffbed;
   color: #141516; }
 
 .dropdown-menu {
